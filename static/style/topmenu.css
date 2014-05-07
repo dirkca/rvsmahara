@@ -1,0 +1,119 @@
+/********************************************************
+**
+** Theme name: rvs
+**
+*********************************************************/
+#sitenav
+{
+    margin:0;
+    padding: 0;
+    clear:both;
+    position:fixed;
+    width:100%;    
+    z-index: 1000;
+    min-width: 1000px;
+}
+#sitenav  #navigation {
+	margin:0 ;
+	padding: 0 ;
+	clear:both;
+    height:37px;
+    background:  #d6eaf8 url(../images/dropdown-bg.gif) repeat-x left top; 
+}
+ul.nav-main-menu {
+    position: relative;
+    z-index: 597;
+}
+ul.nav-main-menu,ul.nav-main-menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.nav-main-menu li:hover > ul {
+	visibility: visible;
+}
+ul.nav-main-menu li.hover,ul.nav-main-menu li:hover {
+	position: relative;
+	z-index: 599;
+	cursor: pointer;
+    background:  url(../images/dropdown-bg-hover.gif) repeat-x left top;
+}
+ul.nav-main-menu li {
+	float:left;
+	display:block;
+	height: 37px;
+	color: #999;
+	font: 12px Arial, Helvetica, sans-serif;
+    background: url(../images/separator.gif) no-repeat right center;
+}
+
+ul.nav-main-menu li a {
+	display:block;
+    padding:10.5px 7px;
+    font-size:12px;
+    color:white;
+    float:left;
+    
+    font: 13px Arial,Helvetica,sans-serif;
+    height: 20px;
+    padding: 10px;
+    text-decoration: none;
+
+   /* font-family:Helvetica, Arial, sans-serif;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.231;*/
+}
+ul.nav-main-menu li a:hover {
+	color:#D6D6D6;
+}
+ul.nav-main-menu *.list {
+	padding-right:17px;
+    background: url(../images/navigation-arrow.gif) no-repeat right top;
+    background-position:100% 36%;
+}
+ul.nav-main-menu li:hover  {
+    background :#015D8C; 
+} 
+
+ul.nav-sub-m {
+	visibility: hidden;
+	position: absolute;
+	padding:10px;
+	top: 37px;
+	left: 0;
+	z-index: 598;
+    background:  #353535 url(../images/dropdown-list-bg.gif) repeat-x left top;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+    margin:0 !important;
+}
+ul.nav-sub-m li {
+	list-style:none;
+	display:block;
+	padding: 0;
+	height: 27px;
+	float: none;
+	width:145px;
+	border-bottom: 1px solid #5a5a5a;
+	background: none;
+}
+ul.nav-sub-m li a {
+	list-style:none;
+	display:block;
+	padding: 6px 5px 6px 5px;
+	height: 15px;
+	float: none;
+	width:135px;
+	background: none;
+	font: 12px Arial, Helvetica, sans-serif;	
+}
+ul.nav-sub-m li a:hover {
+    background-color :#015D8C;
+}
+
+
+
+ 
