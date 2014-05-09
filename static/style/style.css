@@ -481,6 +481,12 @@ div.sideblock h3 a{
     font-weight: normal;
     white-space: normal;
 }
+/**************************/
+
+#configureblock.blockinstance.configure {
+    top: 50px !important;
+    z-index: 1500 !important;
+}
 /************footer***************/
  
 #page-footer {
